@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+
+  "name": "@nathanburkett/test-github-packages",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanBurkett/test-github-packages.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "/lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
