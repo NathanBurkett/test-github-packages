@@ -1,3 +1,1 @@
-import { SomeThing } from './some-thing/some-thing';
-
-new SomeThing().generateRandomNumber();
+export * from './some-thing';
